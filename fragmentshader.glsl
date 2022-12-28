@@ -9,5 +9,5 @@ uniform float dark;
 void main()
 {
 
-    FragColor = texture(ourTexture, TexCoord) * length(dark);
+    FragColor = texture(ourTexture, TexCoord);
 }
